@@ -488,7 +488,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 796195578}
         m_TargetAssemblyTypeName: scenechanger, Assembly-CSharp
-        m_MethodName: OnStart
+        m_MethodName: CangeScen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
