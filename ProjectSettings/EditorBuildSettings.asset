@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/koyama/Scenes/Scene2.unity
     guid: c976c3305b351cb4eb9bfc544694a70a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Kajimoto/Scenes/EnemyScene.unity
     guid: 57ed46960097c6341ac6d1c4fd3c28fc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Kajimoto/Scenes/BattleTestScene.unity
     guid: 4fb7746786ba9f7499adf57db6eb9751
   m_configObjects:

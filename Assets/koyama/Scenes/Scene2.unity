@@ -603,8 +603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1
@@ -701,6 +701,7 @@ GameObject:
   - component: {fileID: 933422719}
   - component: {fileID: 933422718}
   - component: {fileID: 933422717}
+  - component: {fileID: 933422720}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -772,7 +773,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 933422718}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 933422720}
+        m_TargetAssemblyTypeName: Mituketa, Assembly-CSharp
+        m_MethodName: CangeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &933422718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,6 +824,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933422715}
   m_CullTransparentMesh: 1
+--- !u!114 &933422720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933422715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c135df2ebbe714187dea7bea396623, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1443914526
 GameObject:
   m_ObjectHideFlags: 0
