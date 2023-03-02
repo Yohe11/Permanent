@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/BattleTestScene.unity
     guid: 4fb7746786ba9f7499adf57db6eb9751
   - enabled: 1
+<<<<<<< HEAD
+=======
+    path: Assets/Scenes/RevivalOrKill.unity
+    guid: a14b16d54dada0744959e2f45446a93b
+  - enabled: 1
+>>>>>>> dc0ce82405221c04d5476a43ca65ddc449ec5f75
     path: Assets/Scenes/ClearScene.unity
     guid: 93fb1cba45c6f844280d54f0b8740e7b
   m_configObjects:

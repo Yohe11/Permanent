@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5877096926048454347}
   - component: {fileID: 5787162208722723414}
   - component: {fileID: 5799671881116014787}
+  - component: {fileID: -8329900848789599939}
   m_Layer: 0
   m_Name: igaguriPrefab(Clone)
   m_TagString: Untagged
@@ -4928,7 +4929,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cd0f71f419c4146b7d6cbad954d5e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deleteTime: 2
+  deleteTime: 1
+--- !u!114 &-8329900848789599939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911061704917074652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee2cd91b1710664e9a2e0bf2d612ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6788695543649282594
 GameObject:
   m_ObjectHideFlags: 0
