@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IgaguriDestroy : MonoBehaviour
 {
-    public float deleteTime = 3.0f;
+    public float deleteTime = 1.0f;
     void Start()
     {
         Destroy(gameObject, deleteTime);

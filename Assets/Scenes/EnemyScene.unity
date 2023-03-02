@@ -183,18 +183,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
-    m_FontSize: 24
+    m_FontSize: 60
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 53
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "QR\u30B3\u30FC\u30C9\u3092\u8AAD\u307F\u8FBC\u3093\u3067\u4E0B\u3055\u3044\u3002\n\uFF0A\u30C9\u30E9\u30B4\u30F3\u304C\u8868\u793A\u3055\u308C\u305F\u3089\u300E\u305F\u305F\u304B\u3046\u300F\u3092\u62BC\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  m_Text: "QR\u30B3\u30FC\u30C9\u3092\n\u8AAD\u307F\u8FBC\u3093\u3067\u4E0B\u3055\u3044"
 --- !u!222 &304870348
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -393,11 +393,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 70
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
