@@ -186,7 +186,7 @@ MonoBehaviour:
     m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -487,7 +487,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 796195578}
-        m_TargetAssemblyTypeName: scenechanger, Assembly-CSharp
+        m_TargetAssemblyTypeName: ResultScene, Assembly-CSharp
         m_MethodName: CangeScen
         m_Mode: 1
         m_Arguments:
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 796195573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae7a8913d64867143801c7d0078f9d35, type: 3}
+  m_Script: {fileID: 11500000, guid: f4a1147e1ea241045b4bc900cb950c3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &802220838
@@ -647,8 +647,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -453}
-  m_SizeDelta: {x: 700, y: 210}
+  m_AnchoredPosition: {x: -0.0000076293945, y: -417}
+  m_SizeDelta: {x: 696.03, y: 153.3777}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1482469098
 MonoBehaviour:
@@ -996,10 +996,10 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u3053\u3093\u306B\u3061\u306F\uFF01\n\u5589\u304C\u4E7E\u3044\u3066\u3044\u308B\u306E\u304B\uFF1F\n\u306A\u3089\u3070\u5148\u305A\u306F\u3001\u30A6\u30A9\u30FC\u30BF\u30FC\u30B5\u30FC\u30D0\u30FC\u3067\n\u6C34\u3092\u6C72\u3093\u3067\u307F\u3088\u3046\uFF01"
+  m_Text: "\u3088\u304F\u3084\u3063\u305F\uFF01\n\u306E\u3069\u3092\u6F64\u3057\u305F\u3089\u6B21\u306E\u4ED5\u4E8B\u306B\u3068\u308A\u304B\u304B\u308D\u3046\uFF01"
 --- !u!222 &1759125185
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ public class KillButton : MonoBehaviour
 
     public void OnClickKillButton()
     {
-        SceneManager.LoadScene("ClearScene");
+        SceneManager.LoadScene("Result Scenes");
     }
 
 }
