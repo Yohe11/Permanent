@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene2.unity
     guid: c976c3305b351cb4eb9bfc544694a70a
   - enabled: 1
+    path: Assets/Scenes/DrawWater.unity
+    guid: c796d4ef5fe579d44bb069838f5a1bdd
+  - enabled: 1
     path: Assets/Scenes/EnemyScene.unity
     guid: 57ed46960097c6341ac6d1c4fd3c28fc
   - enabled: 1
